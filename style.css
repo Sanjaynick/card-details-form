@@ -186,15 +186,10 @@ body{
     margin-top: 20px;
 }
 
-.error{
-    color: hsl(0, 100%, 66%);
-    display: none;
-} 
-
 
                                 /* Mobile Responsive */
 
-@media screen and (max-width:425px){
+@media screen and (max-width:500px){
 
     body{
     position: relative;
@@ -202,7 +197,7 @@ body{
 }
 .bg-img-1{
     width: 100vh;
-    height: 270px;
+    height: 330px;
     object-fit: cover;
 }
 .card-front{
@@ -382,4 +377,6 @@ body{
     background-color: hsl(278, 68%, 11%);
     margin-top: 20px;
 }
+
+
 }
